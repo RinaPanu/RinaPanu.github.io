@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express');
 
-const router = express
+const router = express();
 
 router.post('/email', (req, res) => {
     var transporter = require('nodemailer').createTransport({
