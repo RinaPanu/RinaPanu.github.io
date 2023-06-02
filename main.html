@@ -170,7 +170,15 @@
 
         <footer>
             <div class="questions-block">
-                
+                <form action="/email" method="post">
+                    <label>Сообщение</label>
+                    <textarea name="message" ></textarea>
+                    <label>Тема</label>
+                    <input name="subject" />
+                    <label>Контактный email</label>
+                    <input name="from">
+                    <button type="submit">Отправить</button>
+                </form>
             </div>
         </footer>
     </div>
