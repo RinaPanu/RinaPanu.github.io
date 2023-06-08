@@ -1,0 +1,274 @@
+
+/* Intro
+==============================*/
+
+.intro {
+    margin: 100px 0 70px;
+}
+
+.intro__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.intro__item {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.intro__item__text {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 55px;
+    font-family: 'Jost';
+    color: #000000;
+}
+
+.intro__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.intro__name {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #2d3033;
+}
+
+.intro__text {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.intro__text p {
+    margin-bottom: 20px;
+}
+
+/* Products
+================================*/
+
+.products {
+    margin: 10px 0 10px;
+}
+
+.products__inner {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0 -15px;
+}
+
+.products__item_1 {
+    width: 33.33%;
+    margin: 10px 10px;
+    height: 530px;
+    border: 3px solid #A8ACF6;
+    border-radius: 86px;
+}
+
+
+
+.bold_txt_1 {
+    width: 363px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: auto;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #282938;
+
+}
+
+.products__item_1:hover {
+    background-color: #A8ACF6;
+    border: 3px solid #37474F;
+}
+
+.photo_1 {
+    width: 315.47px;
+    height: 222px;
+    margin-left: 33px;
+    margin-top: 40px;
+    border-radius: 29px;
+    text-align: center;
+}
+
+.txt_1 {
+    font-family: Jost;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: #282938;
+}
+
+.products__item_2 {
+    width: 33.33%;
+    margin: 10px 10px;
+    height: 550px;
+    border: 3px solid #A8ACF6;
+    border-radius: 86px;
+}
+
+
+
+.bold_txt_2 {
+    width: 363px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: auto;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #282938;
+
+}
+
+.products__item_2:hover {
+    background-color: #A8ACF6;
+    border: 3px solid #37474F;
+}
+
+.photo_2 {
+    width: 315.47px;
+    height: 222px;
+    margin-left: 33px;
+    margin-top: 40px;
+    border-radius: 29px;
+    text-align: center;
+}
+
+.txt_2 {
+    font-family: Jost;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: #282938;
+}
+
+.products__item_3 {
+    width: 33.33%;
+    margin: 10px 10px;
+    height: 550px;
+    border: 3px solid #2AABEE;
+    border-radius: 86px;
+}
+
+.products__item_3:hover {
+    background-color: #2AABEE;
+    border: 3px solid #37474F;
+}
+
+.txt_3 {
+    font-family: Jost;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+    color: #282938;
+}
+
+/* Team
+==================================*/
+
+.our__team {
+    margin: 50px 0;
+}
+
+.team__inner__1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: center;
+}
+
+.full__team {
+    width: 408px;
+    height: 62px;
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ======================== */
+.team {
+    margin: 100px 0;
+}
+
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    width: 20%;
+}
+
+.team__photo {
+    display: block;
+    max-width: 100%;
+    padding: 0 15px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team_prof {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.team_prof:hover {
+    color: #A8ACF6;
+}
+
+.name {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.name:hover {
+    color: #A8ACF6;
+}
+
+/* Media
+==================================*/
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+
+}

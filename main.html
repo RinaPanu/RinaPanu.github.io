@@ -1,49 +1,68 @@
-<!-- Главная -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/home.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="static/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Главная</title>
-    <link rel="stylesheet" href="static/css/navbar.css">
-    <link rel="stylesheet" href="static/css/head.css">
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="wrapper">
 
-        <header>
-            <div class="navbar">
-                <a class="logo" href="main.html">
-                    <p>JOBSTART</p>
-                </a>
-                <div class="drop">
-                    <button class="burger">&#9776</button>
-                    <div class="nav-list">
-                        <a href="main.html">Главная</a>
-                        <a href="index.html">Резюме</a>
-                        <a href="interview.html">Собеседование</a>
-                        <a href="team.html">Коллектив</a>
-                        <a href="promotion.html">Повышение</a>
-                        <a href="dismissal.html">Увольнение</a>
-                    </div>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="static/images/picmain/logo.png" alt="">
                 </div>
-            </div>
-        </header>
 
-        <div class="selections">
-            <section>
-                <div class="hello-page">
-                    <img class="headman" src="static/images/фончел.png">
-                    <p class="main-text">Карьерный путь в IT для начинающих</p>
-                    <div class="list-point">
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="main.html">Главная</a>
+                    <a class="nav__link" href="index.html">Резюме</a>
+                    <a class="nav__link" href="interview.html">Собеседование</a>
+                    <a class="nav__link" href="team.html">Коллектив</a>
+                    <a class="nav__link" href="promotion.html">Повышение</a>
+                    <a class="nav__link" href="dismissal.html">Увольнение</a>
+                </nav>
+
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger__item">Menu</span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+
+                <div class="intro__item">
+                    <img class="intro__photo" src="static/images/picmain/фончел.png" alt="">
+                </div>
+
+                <div class="intro__item__text">
+                    <div class="intro__name">Карьерный путь в IT для начинающих</div>
+                    <div class="intro__text">
                         <p>&#10022 С успехом устраиваемся на первую работу</p>
                         <p>&#10022 Подготовка к первой работе молодых специалистов и их полное сопровождение на
                             профессиональном
@@ -55,136 +74,235 @@
                             основанные на личном опыте</p>
                     </div>
                 </div>
+            </div><!-- /.intro__inner -->
+        </div><!-- /.container -->
+    </div><!-- /.intro -->
 
-            </section>
+    <!-- Products -->
+    <div class="products">
+        <div class="container">
+            <div class="products__inner">
 
-            <section>
-                <div class="container-fluid">
-                    <div class="row1">
-                        <a href="summary.html">
-                            <p class="lil">Резюме</p>
-                            <img class="blocks" src="static/images/фотка1.png">
-                            <p class="full">Получите советы по поиску вакансии мечты, составьте персональное резюме в
-                                конструкторе и
-                                получите
-                                готовый к подаче документ!
-                            </p>
-                        </a>
-                    </div>
-                    <div class="row2">
-                        <a href="interview.html">
-                            <p class="lil">Собеседование</p>
-                            <img class="blocks" src="static/images/фотка2.png">
-                            <p class="full">Успешно проходите собеседование: готовимся к тестированию, учимся задавать
-                                вопросы и
-                                договариваться о зарплате. Вычисляем адекватных работодателей и просчитываем шаги
-                                действий на
-                                переговорах
-                            </p>
-                        </a>
-                    </div>
-                    <div class="row3">
-                        <a href="team.html">
-                            <p class="lil">Коллектив</p>
-                            <img class="blocks" src="static/images/фотка3.png">
-                            <p class="full">Подготовьте себя к освоению в коллективе в роли работника или руководителя:
-                                устанавливаем здоровые рабочие отношения с окружающими, изучаем тайм-менеджмент,
-                                организацию
-                                коллектива и работы
-                            </p>
-                        </a>
-                    </div>
-                    <div class="row4">
-                        <a href="promotion.html">
-                            <p class="lil">Повышение</p>
-                            <img class="blocks" src="static/images/фотка4.png">
-                            <p class="full">Узнайте о карьерных возможностях и продвижении по службе: презентуем свой
-                                труд и
-                                требуем
-                                повышения, поддерживаем и повышаем квалификацию. Разбираемся, от чего зависит заработная
-                                плата
-                            </p>
-                        </a>
-                    </div>
-                    <div class="row5">
-                        <a href="dismissal.html">
-                            <p class="lil">Увольнение</p>
-                            <img class="blocks" src="static/images/фотка5.png">
-                            <p class="full">Преодолейте страх потери работы и узнайте, как правильно увольняться и
-                                увольнять:
-                                ищем
-                                подходящий момент и проходим процедуру увольнения, справляемся со стрессом и
-                                переживаниями
-                            </p>
-                        </a>
-                    </div>
-                    <div class="row6">
-                        <a href="https://t.me/Quest_gameBot">
-                            <p class="lil">Telegram квест-бот</p>
-                            <img class="telegram" src="static/images/фотка6.png">
-                            <p class="full">В квест-боте мы собрали краткую справочную информацию по карьерному пути в
-                                IT.
-                                Представьте себя молодым специалистом, проверьте себя с помощью мини-тестов и получите
-                                дополнительный подручный источник информации
-                            </p>
-                        </a>
-                    </div>
+                <div class="products__item_1">
+                    <a href="index.html">
+                        <p class="bold_txt_1">Резюме</p>
+                        <img class="photo_1" src="static/images/picmain/фотка1.png" alt="">
+                        <p class="txt_1">Получите советы по поиску вакансии мечты, составьте персональное резюме в
+                            конструкторе и получите готовый к подаче документ! </p>
+                    </a>
                 </div>
-            </section>
 
-            <section>
-                <div class="our-team">
-                    <p class="team">Наша команда</p>
-
-                    <p class="member1">Тимлид</p>
-                    <a href="https://t.me/ach_ama"><img class="member1" src="static/images/Kristina.png"></a>
-                    <p class="contact1">Кристина</p>
-                    <p class="contact1-1">@ach_ama</p>
-
-                    <p class="member2">Аналитик</p>
-                    <a href="https://t.me/Yanapple"><img class="member2" src="static/images/Yana.png"></a>
-                    <p class="contact2">Яна</p>
-                    <p class="contact1-2">@Yanapple</p>
-
-                    <p class="member3">Дизайнер</p>
-                    <a href="https://t.me/bossklesh"><img class="member3" src="static/images/Ira.png"></a>
-                    <p class="contact3">Ира</p>
-                    <p class="contact1-3">@bossklesh</p>
-
-                    <p class="member4">Разработчик</p>
-                    <a href="https://t.me/emlviks"><img class="member4" src="static/images/Vika.png"></a>
-                    <p class="contact4">Вика</p>
-                    <p class="contact1-4">@emlviks</p>
-
-                    <p class="member5">Разработчик</p>
-                    <a href="https://t.me/katymiru"><img class="member5" src="static/images/Katya.png"></a>
-                    <p class="contact5">Катя</p>
-                    <p class="contact1-5">@katymiru</p>
+                <div class="products__item_1">
+                    <a href="interview.html">
+                        <p class="bold_txt_1">Собеседование</p>
+                        <img class="photo_1" src="static/images/picmain/фотка2.png" alt="">
+                        <p class="txt_1">Успешно проходите собеседование: готовимся к тестированию, учимся задавать
+                            вопросы и договариваться о зарплате. Вычисляем адекватных работодателей и просчитываем шаги
+                            действий на переговорах. </p>
+                    </a>
                 </div>
-            </section>
 
-            <section>
-                
-            </section>
-        </div>
-
-        <footer>
-            <div class="questions-block">
-                <form action="/email" method="POST">
-                    <label>Сообщение</label>
-                    <textarea name="message" ></textarea>
-                    <label>Тема</label>
-                    <input name="subject" />
-                    <label>Контактный email</label>
-                    <input name="from">
-                    <button type="submit">Отправить</button>
-                </form>
+                <div class="products__item_1">
+                    <a href="team.html">
+                        <p class="bold_txt_1">Коллектив</p>
+                        <img class="photo_1" src="static/images/picmain/фотка3.png" alt="">
+                        <p class="txt_1">Подготовьте себя к освоению в коллективе в роли работника или руководителя:
+                            устанавливаем здоровые рабочие отношения с окружающими, изучаем тайм-менеджмент, организацию
+                            коллектива и работы. </p>
+                    </a>
+                </div>
             </div>
-        </footer>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="container">
+            <div class="products__inner">
+
+                <div class="products__item_2">
+                    <a href="promotion.html">
+                        <p class="bold_txt_2">Повышение</p>
+                        <img class="photo_2" src="static/images/picmain/фотка4.png" alt="">
+                        <p class="txt_1">Узнайте о карьерных возможностях и продвижении по службе: презентуем свой труд
+                            и требуем повышения, поддерживаем и повышаем квалификацию. Разбираемся, от чего зависит
+                            заработная плата. </p>
+                    </a>
+                </div>
+
+                <div class="products__item_2">
+                    <a href="dismissal.html">
+                        <p class="bold_txt_2">Увольнение</p>
+                        <img class="photo_2" src="static/images/picmain/фотка5.png" alt="">
+                        <p class="txt_1">Преодолейте страх потери работы и узнайте, как правильно увольняться и
+                            увольнять: ищем подходящий момент и проходим процедуру увольнения, справляемся со стрессом и
+                            переживаниями. </p>
+                    </a>
+                </div>
+
+                <div class="products__item_3">
+                    <a href="https://t.me/Quest_gameBot" target="_blank">
+                        <p class="bold_txt_2">Telegram квест-бот</p>
+                        <img class="photo_2" src="static/images/picmain/фотка6.png"
+                            style="height: 250px; width:300px;  border-radius: 0;" alt="">
+                        <p class="txt_3">В квест-боте мы собрали краткую справочную информацию по карьерному пути в IT.
+                            Представьте себя молодым специалистом, проверьте себя с помощью мини-тестов и получите
+                            дополнительный подручный источник информации. </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <div class="our__team">
+        <div class="container">
+            <div class="team__inner__1">
+                <p class="full__team">Наша команда</p>
+            </div>
+        </div>
     </div>
 
 
+    <div class="team">
+        <div class="container">
+            <div class="team__inner">
 
+                <div class="team__item">
+                    <a href="https://t.me/ach_ama" target="_blank">
+                        <p class="team_prof">Тимлид</p>
+                        <img class="team__photo" src="static/images/picmain/Kristina.png" alt="">
+                        <p class="name">Кристина</p>
+                        <p class="name">@ach_ama</p>
+                    </a>
+                </div>
+
+                <div class="team__item">
+                    <a href="https://t.me/Yanapple" target="_blank">
+                        <p class="team_prof">Аналитик</p>
+                        <img class="team__photo" src="static/images/picmain/Yana.png" alt="">
+                        <p class="name">Яна</p>
+                        <p class="name">@Yanapple</p>
+                    </a>
+                </div>
+
+                <div class="team__item">
+                    <a href="https://t.me/bossklesh" target="_blank">
+                        <p class="team_prof">Дизайнер</p>
+                        <img class="team__photo" src="static/images/picmain/Ira.png" alt="">
+                        <p class="name">Ира</p>
+                        <p class="name">@bossklesh</p>
+                    </a>
+                </div>
+
+                <div class="team__item">
+                    <a href="https://t.me/emlviks" target="_blank">
+                        <p class="team_prof">Разработчик</p>
+                        <img class="team__photo" src="static/images/picmain/Vika.png" alt="">
+                        <p class="name">Вика</p>
+                        <p class="name">@emlviks</p>
+                    </a>
+                </div>
+
+                <div class="team__item">
+                    <a href="https://t.me/katymiru" target="_blank">
+                        <p class="team_prof">Разработчик</p>
+                        <img class="team__photo" src="static/images/picmain/Katya.png" alt="">
+                        <p class="name">Катя</p>
+                        <p class="name">@katymiru</p>
+                    </a>
+                </div>
+
+
+            </div><!-- /.team__inner -->
+        </div><!-- /.container -->
+    </div><!-- /.team -->
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container1">
+            <div class="footer__inner">
+                <div class="footer__block__hight">
+                    <h4 class="ques">Обращайтесь к нам по любым вопросам</h4>
+                    <p class="fitback">Мы готовы поделиться своим опытом и помочь вам решить любые проблемы, с которыми
+                        вы
+                        столкнетесь на рабочем месте</p>
+                </div>
+                <div class="footer__form">
+                    <form action="/email" method="POST">
+                        <label>Сообщение</label>
+                        <textarea name="message" ></textarea>
+                        <br>
+                        <label>Тема</label>
+                        <input name="subject" />
+                        <br>
+                        <label>Контактный email</label>
+                        <input name="from">
+                        <br>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyrightperple"></div>
+
+        <div class="container">
+
+            <div class="footer__inner">
+                <div class="footer__block1">
+                    <h4 class="footer__title2">Хотите оставить отзыв?</h4>
+                    <address class="footer__address">
+                        <a href="https://forms.yandex.ru/u/6478020f3e9d08137463aa52/" target="_blank">
+                            <p class="fitback">Оставить отзыв</p>
+                        </a>
+                    </address>
+
+                </div>
+
+                <div class="footer__block">
+                    <p class="footer__title1">Навигация</p>
+                    <a href="main.html">
+                        <p class="footer__title">Главная</p>
+                    </a>
+                    <a href="index.html">
+                        <p class="footer__title">Резюме</p>
+                    </a>
+                </div>
+
+                <div class="footer__block">
+                    <a href="interview.html">
+                        <p class="footer__title">Собеседование</p>
+                    </a>
+                    <a href="team.html">
+                        <p class="footer__title">Коллектив</p>
+                    </a>
+                    <a href="dismissal.html">
+                        <p class="footer__title">Увольнение</p>
+                    </a>
+                </div>
+            </div><!-- /.footer__inner -->
+
+        </div><!-- /.container -->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>Тут можно вставить что-то типо мы крутые и че та разрабатываем</div>
+                    <div>Made <span>by самая лучшая команда эвер</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="adaptive.js"></script>
 </body>
 
 </html>
