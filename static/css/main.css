@@ -9,13 +9,12 @@ a {
 }
 
 body {
+    
     margin: 0;
-
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
     -webkit-font-smoothing: antialiased;
-
     background-color: #fff;
 }
 
@@ -290,8 +289,34 @@ p {
 }
 .footer__form {
     width: 60%;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    text-align:center
 }
+
+form {
+    width: 100%;
+}
+
+.forms {
+    box-sizing: border-box;
+
+    left: 43.89%;
+    right: 9.03%;
+    top: 78.84%;
+    bottom: 19.01%;
+
+    border: 2.18973px solid #FFFFFF;
+    border-radius: 11.6786px;
+
+    width: 500px;
+    height: 93px;
+    right: 0px;
+
+    background: #1E2833;
+    margin: 5px;
+    
+} 
 /* Copyright
 ===================*/
 .copyrightperple {
@@ -425,7 +450,9 @@ p {
     .burger {
         display: block;
     }
+
 }
+ 
 @media (max-width: 768px) {
 
     /* Btn */

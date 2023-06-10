@@ -25,7 +25,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body background="static/images/picmain/поярче.png">
 
     <!-- Header -->
     <header class="header" id="header">
@@ -36,7 +36,7 @@
                 </div>
 
                 <nav class="nav" id="nav">
-                    <a class="nav__link" href="main.html">Главная</a>
+                    <a class="nav__link" href="main.html" style="color: #A8ACF6;">Главная</a>
                     <a class="nav__link" href="index.html">Резюме</a>
                     <a class="nav__link" href="interview.html">Собеседование</a>
                     <a class="nav__link" href="team.html">Коллектив</a>
@@ -235,14 +235,14 @@
                 </div>
                 <div class="footer__form">
                     <form action="/email" method="POST">
-                        <label>Сообщение</label>
-                        <textarea name="message" ></textarea>
+                        <!-- <label placeholder="Контактный email">Контактный email</label> -->
+                        <input name="from" class="forms">
                         <br>
-                        <label>Тема</label>
-                        <input name="subject" />
+                        <!-- <label>Имя</label> -->
+                        <input name="name" class="forms">
                         <br>
-                        <label>Контактный email</label>
-                        <input name="from">
+                        <!-- <label>Текст</label> -->
+                        <input name="message" class="forms">
                         <br>
                         <button type="submit">Отправить</button>
                     </form>

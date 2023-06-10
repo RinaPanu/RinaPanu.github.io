@@ -3,7 +3,7 @@
 ==============================*/
 
 .intro {
-    margin: 100px 0 70px;
+    margin: 100px 0 30px;
 }
 
 .intro__inner {
@@ -67,6 +67,7 @@
     display: flex;
     /* flex-wrap: wrap; */
     margin: 0 -15px;
+    max-width: 100%;
 }
 
 .products__item_1 {
@@ -101,7 +102,7 @@
 .photo_1 {
     width: 315.47px;
     height: 222px;
-    margin-left: 33px;
+    margin-left: 25px;
     margin-top: 40px;
     border-radius: 29px;
     text-align: center;
@@ -122,8 +123,6 @@
     border: 3px solid #A8ACF6;
     border-radius: 86px;
 }
-
-
 
 .bold_txt_2 {
     width: 363px;
@@ -150,6 +149,15 @@
     margin-left: 33px;
     margin-top: 40px;
     border-radius: 29px;
+    text-align: center;
+}
+
+.photo_3 {
+    width: 300px;
+    height: 250px;
+    margin-left: 33px;
+    margin-top: 40px;
+    border-radius: 0px;
     text-align: center;
 }
 
@@ -186,7 +194,7 @@
 ==================================*/
 
 .our__team {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .team__inner__1 {
@@ -218,6 +226,10 @@
 }
 
 .team__item {
+    width: 19%;
+}
+
+.team__item:hover {
     width: 20%;
 }
 
@@ -259,16 +271,525 @@
 
 @media (max-width: 1024px) {
 
+    .products__item_1 {
+        width: 30%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #A8ACF6;
+        border-radius: 86px;
+    }
+
+    .products__item_2 {
+        width: 30%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #A8ACF6;
+        border-radius: 86px;
+    }
+
+    .products__item_3 {
+        width: 30%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #2AABEE;
+        border-radius: 86px;
+    }
+
+    .bold_txt_1 {
+        width: 363px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -25px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_1 {
+        width: 270px;
+        height: 170px;
+        margin-left: 10px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_1 {
+        font-family: Jost;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 30px;
+        color: #282938;
+    }
+
+    .bold_txt_2 {
+        width: 363px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -25px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_2 {
+        width: 270px;
+        height: 170px;
+        margin-left: 10px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_3 {
+        font-family: Jost;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 0;
+        color: #282938;
+    } 
+    
+    .photo_3 {
+        width: 250px;
+        height: 200px;
+        margin-left: 21px;
+        margin-top: 40px;
+        border-radius: 0px;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 991px) {
 
+    /* Intro=================================== */
+
+    .intro {
+        margin: 100px 0 20px;
+    }
+
+    .intro__item {
+        display: none;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+    .intro__item__text {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        margin-top: 55px;
+        font-family: 'Jost';
+    }
+
+    .intro__name {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: 'Jost';
+        color: #A8ACF6;
+        text-align: center;
+    }
+
+    .intro__text {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        margin-top: 55px;
+        font-family: 'Jost';
+        color: #000000;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    /* Products====================================== */
+
+    .products__inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        max-width: 100%;
+    }
+
+    .products__item_1 {
+        width: 100%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #A8ACF6;
+        border-radius: 86px;
+    }
+
+    .products__item_2 {
+        width: 100%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #A8ACF6;
+        border-radius: 86px;
+    }
+
+    .products__item_3 {
+        width: 100%;
+        margin: 10px 10px;
+        height: 500px;
+        border: 3px solid #2AABEE;
+        border-radius: 86px;
+    }
+
+    .bold_txt_1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -25px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        color: #282938;
+    
+    }
+
+    .photo_1 {
+        width: 300px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_1 {
+        font-family: Jost;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        color: #282938;
+    }
+
+    .bold_txt_2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -25px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_2 {
+        width: 300px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_3 {
+        font-family: Jost;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        color: #282938;
+    } 
+    
+    .photo_3 {
+        width: 250px;
+        height: 220px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 0px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) {
 
+    .bold_txt_1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -30px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #282938;
+    
+    }
+
+    .photo_1 {
+        width: 300px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_1 {
+        font-family: Jost;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 30px;
+        color: #282938;
+    }
+
+    .bold_txt_2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: -25px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_2 {
+        width: 300px;
+        height: 200px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_3 {
+        font-family: Jost;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        color: #282938;
+    } 
+    
+    .photo_3 {
+        width: 250px;
+        height: 220px;
+        margin-left: 200px;
+        margin-top: 40px;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .team {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 425px) {
 
+    .bold_txt_1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #282938;
+    
+    }
+
+    .photo_1 {
+        width: 300px;
+        height: 200px;
+        margin-left: 35px;
+        margin-top: 15px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_1 {
+        font-family: Jost;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 30px;
+        color: #282938;
+    }
+
+    .bold_txt_2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_2 {
+        width: 300px;
+        height: 200px;
+        margin-left: 35px;
+        margin-top: 15px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_3 {
+        font-family: Jost;
+        font-size: 17px;
+        text-align: center;
+        margin-top: 10px;
+        color: #282938;
+    } 
+    
+    .photo_3 {
+        width: 250px;
+        height: 220px;
+        margin-left: 57px;
+        margin-top:15px;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .team__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .team__item {
+        width: 50%;
+    }
+
+    #leader.team__item {
+        display: flex;
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .bold_txt_1 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #282938;
+    
+    }
+
+    .photo_1 {
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_1 {
+        font-family: Jost;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+        color: #282938;
+    }
+
+    .bold_txt_2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 45px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        color: #282938;
+    
+    }
+
+    .photo_2 {
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 15px;
+        border-radius: 29px;
+        text-align: center;
+    }
+
+    .txt_3 {
+        font-family: Jost;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        color: #282938;
+    } 
+    
+    .photo_3 {
+        width: 250px;
+        height: 220px;
+        margin-left: 35px;
+        margin-top: 15px;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .intro__name {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #A8ACF6;
+    }
+    
+    .intro__text {
+        margin-bottom: 20px;
+        margin-top: 50px;
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 17px;
+        color: #000000;
+    
+    }
+
+    .full__team {
+        font-size: 40px;
+    }
+    
 }
