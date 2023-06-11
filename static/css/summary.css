@@ -1082,3 +1082,49 @@
 
 
 }
+
+/* Конструктор резюме
+==================================================*/
+
+.descr {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 21.9581px;
+
+    width: 44vw;
+    height: 5vh;
+    /* width: 836px;
+    height: 80px; */
+
+    background: #FFFFFF;
+    /* Light/Stroke/Field Border Alpha
+
+    Обводка полей ввода, селектов, кнопок
+
+    Appearance Token:
+    field_border
+    */
+    border: 0.914921px solid rgba(0, 0, 0, 0.12);
+    border-radius: 14.6387px;
+}
+
+.input__descr {
+    width: 42vw;
+    height: 5vh;
+}
+.avatar__name{
+    display:flex;
+}
+.name {
+    
+    width:60%;
+}
+
+.avatar{
+    width:40%;
+}

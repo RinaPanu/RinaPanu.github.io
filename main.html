@@ -167,52 +167,56 @@
         <div class="container">
             <div class="team__inner">
 
-                <div class="team__item">
-                    <a href="https://t.me/ach_ama" target="_blank">
-                        <p class="team_prof">Тимлид</p>
-                        <img class="team__photo" src="static/images/picmain/Kristina.png" alt="">
-                        <p class="name">Кристина</p>
-                        <p class="name">@ach_ama</p>
-                    </a>
+                <div class="team">
+                    <div class="container">
+                        <div class="team__inner">            
+                            <div class="team__item">
+                                <a href="https://t.me/katymiru" target="_blank">
+                                    <p class="team_prof">Разработчик</p>
+                                    <img class="team__photo" src="static/images/picmain/Katya.png" alt="">
+                                    <p class="name">Катя</p>
+                                    <p class="name">@katymiru</p>
+                                </a>
+                            </div>
+            
+                            <div class="team__item">
+                                <a href="https://t.me/Yanapple" target="_blank">
+                                    <p class="team_prof">Аналитик</p>
+                                    <img class="team__photo" src="static/images/picmain/Yana.png" alt="">
+                                    <p class="name">Яна</p>
+                                    <p class="name">@Yanapple</p>
+                                </a>
+                            </div>
+            
+                            <div class="team__item">
+                                <a href="https://t.me/bossklesh" target="_blank">
+                                    <p class="team_prof">Дизайнер</p>
+                                    <img class="team__photo" src="static/images/picmain/Ira.png" alt="">
+                                    <p class="name">Ира</p>
+                                    <p class="name">@bossklesh</p>
+                                </a>
+                            </div>
+            
+                            <div class="team__item">
+                                <a href="https://t.me/emlviks" target="_blank">
+                                    <p class="team_prof">Разработчик</p>
+                                    <img class="team__photo" src="static/images/picmain/Vika.png" alt="">
+                                    <p class="name">Вика</p>
+                                    <p class="name">@emlviks</p>
+                                </a>
+                            </div>
+            
+                            <div class="team__item" id="leader">
+                                <a href="https://t.me/ach_ama" target="_blank">
+                                    <p class="team_prof">Тимлид</p>
+                                    <img class="team__photo" src="static/images/picmain/Kristina.png" alt="">
+                                    <p class="name">Кристина</p>
+                                    <p class="name">@ach_ama</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="team__item">
-                    <a href="https://t.me/Yanapple" target="_blank">
-                        <p class="team_prof">Аналитик</p>
-                        <img class="team__photo" src="static/images/picmain/Yana.png" alt="">
-                        <p class="name">Яна</p>
-                        <p class="name">@Yanapple</p>
-                    </a>
-                </div>
-
-                <div class="team__item">
-                    <a href="https://t.me/bossklesh" target="_blank">
-                        <p class="team_prof">Дизайнер</p>
-                        <img class="team__photo" src="static/images/picmain/Ira.png" alt="">
-                        <p class="name">Ира</p>
-                        <p class="name">@bossklesh</p>
-                    </a>
-                </div>
-
-                <div class="team__item">
-                    <a href="https://t.me/emlviks" target="_blank">
-                        <p class="team_prof">Разработчик</p>
-                        <img class="team__photo" src="static/images/picmain/Vika.png" alt="">
-                        <p class="name">Вика</p>
-                        <p class="name">@emlviks</p>
-                    </a>
-                </div>
-
-                <div class="team__item">
-                    <a href="https://t.me/katymiru" target="_blank">
-                        <p class="team_prof">Разработчик</p>
-                        <img class="team__photo" src="static/images/picmain/Katya.png" alt="">
-                        <p class="name">Катя</p>
-                        <p class="name">@katymiru</p>
-                    </a>
-                </div>
-
-
             </div><!-- /.team__inner -->
         </div><!-- /.container -->
     </div><!-- /.team -->
@@ -234,15 +238,16 @@
                         столкнетесь на рабочем месте</p>
                 </div>
                 <div class="footer__form">
-                    <form action="/email" method="POST">
-                        <!-- <label placeholder="Контактный email">Контактный email</label> -->
-                        <input name="from" class="forms">
+                    <form>
+                        <input type="hidden" name="project_name" value="Jobstart">
+                        <input type="hidden" name="admin_email" value="proektnyjp4638@gmail.com">
+                        <input type="hidden" name="form_subject" value="Form">
+                        
+                        <input name="name" class="forms" placeholder="Ваше имя">
                         <br>
-                        <!-- <label>Имя</label> -->
-                        <input name="name" class="forms">
+                        <input name="email" class="forms" placeholder="Email">
                         <br>
-                        <!-- <label>Текст</label> -->
-                        <input name="message" class="forms">
+                        <input name="message" class="forms" placeholder="Текст">
                         <br>
                         <button type="submit">Отправить</button>
                     </form>
@@ -303,6 +308,8 @@
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="adaptive.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="email.js"></script>
 </body>
 
 </html>
