@@ -1,0 +1,453 @@
+.intro {
+    margin: 100px 0 30px;
+}
+
+.intro__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-top: 50px;
+}
+
+.intro__item {
+    width: 45%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.intro__item__text {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: 'Jost';
+    color: #000000;
+}
+
+.intro__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 71.9775px;
+}
+
+#frame {
+    width: 90%;
+    height: 175px;
+    left: 172px;
+    top: 500px;
+    background: rgba(168, 172, 246, 0.15);
+    border-radius: 30.8571px;
+    
+}
+
+.intro__name {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #2d3033;
+}
+
+.intro__text {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    padding: 18px;
+
+}
+
+.intro__text p {
+    margin-bottom: 20px;
+}
+
+
+/* Types 
+========================================*/
+
+.types {
+
+    margin: 10px 0 30px;
+
+}
+
+.types__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.types__header {
+
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.types__block {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+}
+
+.types__block__point {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Title
+======================================= */
+
+#blocks {
+
+    margin-left: 10px;
+}
+
+.title {
+    margin: 10px 0 10px;
+}
+
+.title__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-left: 0px;
+}
+
+.title__header {
+
+    width: 100%;
+    height: auto;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title__block {
+
+    width: 60%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.title__block__full {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.title__img {
+    
+    display: flex;
+    width: 35%;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.title__people {
+
+    width: 100%;
+    float: right;
+    height: 90%;
+}
+
+
+/* Salary
+====================================== */
+
+.salary {
+    margin: 10px 0 10px;
+}
+
+.salary__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-left: 0px;
+}
+
+.salary__header {
+
+    text-align: center;
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.salary__block {
+
+    width: 55%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.salary__block__full {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.salary__img {
+
+    display: flex;
+    width: 35%;
+    height: 100%;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.salary__people {
+
+    width: 100%;
+    float: right;
+    height: 90%;
+}
+
+/* Director */
+
+.director {
+    margin: 10px 0 10px;
+}
+
+.director__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.director__header {
+
+    width: 100%;
+    height: auto;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 35px;
+    color: #2405F2;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.director__block {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.color {
+
+    font-weight: bold;
+    color: #2405F2;
+
+}
+
+
+
+/* Media
+===================================*/
+
+@media (max-width: 2560px) {
+
+    .intro__item__phone {
+
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    #header {
+        font-size: 40px;
+    }
+
+    #header__rec {
+        font-size: 30px;
+    }
+
+    #blocks {
+
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .intro__text {
+        display: none;
+    }
+
+    .intro__item__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro__item {
+
+        display: none;
+    }
+
+    .intro__item__phone {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .intro__photo {
+
+        width: 85%;
+    }
+
+    #blocks {
+
+        font-size: 18px;
+    }
+}
+ 
+@media (max-width: 768px) {
+
+    .title__block {
+
+        width: 100%;
+    }
+
+    .title__img {
+    
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .title__people {
+    
+        width: 80%;
+        height: auto;
+    }
+
+    .salary__block {
+
+        width: 100%;
+    }
+
+    .salary__img {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .salary__block {
+
+        width: 100%;
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 18px;
+        color: #000000;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    
+    .salary__people {
+    
+        width: 80%;
+        height: auto;
+    }
+
+    .rols__img {
+
+        width: 100%;
+    }
+
+    .rols__block {
+
+        width: 100%;
+    }
+
+    .rols__people {
+
+        width: 80%;
+    }
+
+    #header {
+
+        font-size: 29px;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    #header {
+
+        font-size: 30px;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    #block {
+
+        font-size: 15px;
+        height: auto;
+    }
+
+}
