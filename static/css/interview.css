@@ -503,7 +503,11 @@
 /* Accordion
 ===================*/
 
-.accordion{}
+.accordion{
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #282938;
+}
 
 .accordion-item{
     margin-bottom: 20px;
@@ -512,21 +516,39 @@
 .accordion-item__trigger{
     display: block;
     padding: 20px;
-    border: 1px solid black;
+    
 }
 
 .accordion-item__content{
     padding: 20px;
-    border: 1px solid black;
+    opacity: 0.7;
     border-top: none;
     display: none;
 }
 .accordion-item-active .accordion-item__trigger{
-    background-color: #CCC
+    
 }
 .accordion-item-active .accordion-item__content{
     display: block;
-    background-color: #CCC;
+    
+}
+
+.accordion-item-border{
+    border: 5px #000000;
+}
+
+.violet-border{
+    border: 3.5px solid #A8ACF6;
+    border-radius: 25px;
+}
+
+.white-border{
+    border: 3.5px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+.question_tecnologic{
+    background: rgba(221, 222, 246, 0.5);
 }
 /* Media
 ===================*/
