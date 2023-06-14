@@ -490,11 +490,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.tabs__text p {
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
+
 /* .tabs__padding{
     padding: 0px 15px;
 } */
@@ -559,9 +555,7 @@ button.accordion{
     margin-bottom: 20px;
 }
 
-.tabs__text{
-    padding: none !important;
-}
+
 
 /* Media Accordion
 ===================*/
