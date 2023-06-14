@@ -495,9 +495,9 @@
     margin-right: 10%;
     
 }
-.tabs__padding{
+/* .tabs__padding{
     padding: 0px 15px;
-}
+} */
 /* Accordion
 ===================*/
 
@@ -559,7 +559,9 @@ button.accordion{
     margin-bottom: 20px;
 }
 
-
+.tabs__text{
+    padding: none !important;
+}
 
 /* Media Accordion
 ===================*/
