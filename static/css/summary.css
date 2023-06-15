@@ -547,6 +547,10 @@
 }
 
 @media (max-width: 1024px) {
+    .adviсe {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
 
     .adapt__photo {
         display: none;
