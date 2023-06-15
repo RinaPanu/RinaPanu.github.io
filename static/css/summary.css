@@ -502,7 +502,18 @@
     padding: 15px;
 }
 
-
+.kXzTzF_1 {
+    display: flex !important;
+    justify-content:center !important;
+   margin-bottom: 25px !important;
+}
+.hxLSeE {
+    margin: 10px;
+}
+.print__button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 /* Media
 ==================================================*/
 
@@ -991,6 +1002,9 @@
 
 @media (max-width: 425px) {
 
+    .block__1{
+        margin-bottom: 60px;
+    }
     .intro__name {
 
         font-size: 30px;
@@ -1080,6 +1094,7 @@
     .bad__good__header {
 
         font-size: 35px;
+        margin-bottom: 60px;
     }
 
     .bad__good__block {

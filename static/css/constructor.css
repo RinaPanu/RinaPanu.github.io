@@ -1,16 +1,21 @@
 /* Конструктор резюме
 ==================================================*/
-
+.avatar__mother{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.avatar{
+    width: 70%;
+}
 @media (max-width: 480px) {
+    
     .ui-container {
         max-width: 350px !important;
     }
     
     .input__descr{
         width: 100%;
-    }
-    .avatar{
-        display: none;
     }
     .descr {
         box-sizing: border-box;

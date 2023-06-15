@@ -469,6 +469,17 @@
     align-items: center;
     color: #282938;
     opacity: 0.7;
+    margin-bottom: 40px;
+}
+.tabs__item:hover {
+    flex: 0 1 33.333%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2405F2;
+    opacity: 0.7;
+    margin-bottom: 40px;
 }
 .tabs__body {
 
@@ -554,7 +565,10 @@ button.accordion{
 .accordion-item{
     margin-bottom: 20px;
 }
+.accordion_big{
 
+    margin-top: 40px;
+}
 
 
 /* Media Accordion
