@@ -1014,10 +1014,10 @@
 }
 
 @media (max-width: 425px) {
-    .all{
-        margin-left: 12px !important;
+    /* .all{
+        margin-left: px !important;
         margin-right: 12px !important;
-    }
+    } */
 
     .block__1{
         margin-bottom: 60px;
