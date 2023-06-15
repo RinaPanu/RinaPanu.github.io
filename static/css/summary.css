@@ -1,5 +1,18 @@
+ul li{
+    list-style-type: disc !important;
+}
+ol li{
+    list-style-type: decimal !important;
+}
+/* @media (max-width: 480px){
+
+} */
+.all{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
 .intro {
-    margin: 100px 0 30px;
+    margin: 100px 0 30px !important;
 }
 
 .intro__inner {
@@ -1001,6 +1014,10 @@
 }
 
 @media (max-width: 425px) {
+    .all{
+        margin-left: 12px !important;
+        margin-right: 12px !important;
+    }
 
     .block__1{
         margin-bottom: 60px;
