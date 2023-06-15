@@ -1,7 +1,7 @@
-ul li{
+.ul1 li{
     list-style-type: disc !important;
 }
-ol li{
+.ol1 li{
     list-style-type: decimal !important;
 }
 /* @media (max-width: 480px){
