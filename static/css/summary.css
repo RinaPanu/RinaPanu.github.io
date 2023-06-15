@@ -1018,9 +1018,11 @@
         margin-left: px !important;
         margin-right: 12px !important;
     } */
-
+    .block__2{
+        margin-bottom: 70px;
+    }
     .block__1{
-        margin-bottom: 60px;
+        margin-bottom: 150px;
     }
     .intro__name {
 
@@ -1100,7 +1102,7 @@
     .block__2 {
 
         font-size: 20px;
-        margin-bottom: 30px;
+
     }
 
     .structure__header {

@@ -185,4 +185,7 @@
     .print__button{
         display: none;
     }
+    .Non__Print{
+        display: none !important;
+    }
 }
